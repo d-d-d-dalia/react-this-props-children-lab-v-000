@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-class ThemedDecorations extends React.Component {
+export default class ThemedDecorations extends React.Component {
 
   render() {
     const childrenWithExtraProp = React.Children.map(this.props.children, child => React.cloneElement(child, {
@@ -16,5 +16,3 @@ class ThemedDecorations extends React.Component {
     );
   }
 }
-
-export default ThemedDecorations;

@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-class Invitation extends React.Component {
+export default class Invitation extends React.Component {
 
   render() {
     return (
@@ -13,4 +13,3 @@ class Invitation extends React.Component {
     )
   }
 }
-export default Invitation;
